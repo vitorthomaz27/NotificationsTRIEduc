@@ -1,0 +1,21 @@
+﻿@page
+    <!-- Abas para as notificações -->
+    <div class="row">
+        <div class="col-12">
+            <ul class="nav nav-tabs" id="notificationTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="notifications-tab" data-bs-toggle="tab" href="#notifications" role="tab" aria-controls="notifications" aria-selected="true">Notificações</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="notificationContent">
+                <div class="tab-pane fade show active" id="notifications" role="tabpanel" aria-labelledby="notifications-tab">
+                    <ul id="notificationList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/notify.js"></script>
+
